@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+.footer {
+    padding: 60px 0 20px;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-family: 'Rubik Iso', cursive;
+        font-size: 26px;
+    }
+
+    &__link {
+        transition: all .3s;
+        &:hover {
+            color: #F2E8C4;
+        }
+    }
+
+    &__logo {
+        &-img {
+            transition: all .3s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

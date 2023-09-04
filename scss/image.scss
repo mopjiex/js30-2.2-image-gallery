@@ -1,0 +1,27 @@
+.image {
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 33.333%;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    
+    &__box {
+        width: 350px;
+        border: 2px solid #F73859;
+        border-radius: 8px;
+        transition: all .3s;
+        &-img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    
+}
